@@ -1,31 +1,17 @@
-There are two ways to run this program: 
+Here are two ways to run this program:
 
-First you compile all files and then run ConsoleApp.class 
+Compile all files and then run ConsoleApp.class.
+Simply press the "Run" button in ConsoleApp.class.
+Program Overview:
+This program utilizes a customSet to ensure that both names and numbers are unique. If a duplicate name or number is encountered, it throws custom exceptions.
 
-Second you press run button in the ConsoleApp.class
-
-
-ABOUT programm
-
-I used my customSet to make names ans numbers unique if the given name or number are existing it will thow my Custom Exceptions
-
-Menu
-
-1. Add Subscriber (Adds a Subscriber if their numbers are correct by the number format which was specified when program started).
-
-2. Delete Subscriber (Deletes a Subscriber if Subscriber exists and their numbers are correct by the number format which was specified when program started).
-
-3. Append Multiple Numbers to existsing Subscriber (Append multiple numbers if user exists and new numbers are correct by the number format which was specified when program started).
-
-4. Append Number to existing Subscriber (Appends number if user exists and new number is correct by the number format).
-
-5. Update Numbers of Subscriber (Deletes number of Subscriber and then adds new ones if number format is correct).
-
-6. Search by Name (Searches by Name a Subscriber) with log n time
-
-7. Search by Number (Searches user with the given phone number and then returns name if such Subscriber exists)
-
-8. Display All Subscribers (Preints everyone in phonebook)
-
-9. Exit
-
+Menu Options:
+Add Subscriber: Adds a subscriber if their phone number matches the specified format at the start of the program.
+Delete Subscriber: Removes a subscriber if they exist and their number is in the correct format.
+Append Multiple Numbers: Adds multiple numbers to an existing subscriber if the subscriber exists and the new numbers meet the format requirements.
+Append Number: Adds a single number to an existing subscriber if the subscriber exists and the new number matches the format.
+Update Subscriber Numbers: Replaces a subscriber's numbers with new ones, ensuring the new numbers follow the specified format.
+Search by Name: Searches for a subscriber by name with logarithmic time complexity.
+Search by Number: Finds and returns the name of a subscriber by their phone number, if they exist.
+Display All Subscribers: Prints all subscribers in the phonebook.
+Exit: Closes the program.
